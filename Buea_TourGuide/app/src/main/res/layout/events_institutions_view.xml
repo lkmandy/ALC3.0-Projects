@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/parent_linearLayout">
+
+    <ImageView
+        android:id="@+id/image"
+        style="@style/location_icon"
+        android:src="@drawable/ic_action_location" />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/text_container"
+        style="@style/inner_parent">
+
+        <!--Name-->
+        <TextView
+            android:id="@+id/name"
+            style="@style/name_text_view"
+            android:text="@string/beta_nights" />
+
+        <!--Frequency-->
+        <TextView
+            android:id="@+id/frequency"
+            style="@style/level_two_text_view"
+            android:text="@string/half_day" />
+
+        <!--Target Group-->
+        <TextView
+            android:id="@+id/target_group"
+            style="@style/level_three_text_view"
+            android:text="@string/females" />
+
+    </LinearLayout>
+
+</LinearLayout>

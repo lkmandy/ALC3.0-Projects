@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- News title text view-->
+    <TextView
+        android:id="@+id/news_title"
+        style="@style/news_title"
+        android:text="@string/news_title" />
+
+    <LinearLayout style="@style/text_container">
+        <!-- News section text view -->
+        <TextView
+            android:id="@+id/news_section"
+            style="@style/news_section"
+            android:text="@string/news_section" />
+
+        <!-- News date text view -->
+        <TextView
+            android:id="@+id/date"
+            style="@style/news_author"
+            android:text="@string/date" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/text_container2">
+        <TextView
+            android:id="@+id/authorLabel"
+            style="@style/news_section"
+            android:text="@string/authorLabel" />
+        <TextView
+            android:id="@+id/author"
+            style="@style/news_author"
+            android:text="@string/author" />
+    </LinearLayout>
+
+</LinearLayout>

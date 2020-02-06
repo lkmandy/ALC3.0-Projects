@@ -1,0 +1,178 @@
+<resources>
+
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Lotia MusicPlayer</string>
+
+    <!-- Gospel Genre Name-->
+    <string name="genre_gospel">Gospel</string>
+
+    <!-- Gospel  song1-->
+    <string name="gospelArtistSinach">Sinach</string>
+    <string name="gospelSongSinach">Way Maker</string>
+
+    <!-- Gospel song2-->
+    <string name="gospelArtistDrTumi">Dr Tumi</string>
+    <string name="gospelSongDrTumi">No other God</string>
+
+    <!--Gospel  song3-->
+    <string name="gospelArtistDonMoen">Don Moen</string>
+    <string name="gospelSongDonMoen">I will Sing</string>
+
+    <!--Gospel  song4-->
+    <string name="gospelArtistHillSong">HillSong Worship</string>
+    <string name="gospelSongHillSong">What A Beautiful Name</string>
+
+    <!-- Gospel  song5-->
+    <string name="gospelArtistTasha">Tasha Cobbs</string>
+    <string name="gospelSongTasha">Break Every Chain</string>
+
+    <!-- Gospel  song6-->
+    <string name="gospelArtistAda">Ada</string>
+    <string name="gospelSongAda">I testify</string>
+
+    <!-- Gospel  song7-->
+    <string name="gospelArtistSteve">Steve Crown</string>
+    <string name="gospelSongSteve">You are great</string>
+
+    <!-- Gospel  song8-->
+    <string name="gospelArtistAtta"> Atta Baofo</string>
+    <string name="gospelSongAtta">Double Double</string>
+
+    <!-- Gospel  song9-->
+    <string name="gospelArtistJonathan">Jonathan Nelson</string>
+    <string name="gospelSongJonathan">I believe</string>
+
+    <!-- Gospel song10-->
+    <string name="gospelArtistJonnie">Jonnie Badu</string>
+    <string name="gospelSongJonnie">Baba</string>
+
+    <!-- Hip-hop Genre Name-->
+    <string name="genre_hip_hop">Hip-Hop</string>
+
+    <!-- Hip Hop  song1-->
+    <string name="hip_hopArtistBlanche">Blanche Bailly ft Minks</string>
+    <string name="hip_hopSongBlanche">Mimbayeur</string>
+
+    <!-- Hip Hop  song2-->
+    <string name="hip_hopArtistCharlotte">Charlotte Dipanda</string>
+    <string name="hip_hopSongCharlotte">Sistaa</string>
+
+    <!-- Hip Hop  song3-->
+    <string name="hip_hopArtistFalz">Falz ft Simi</string>
+    <string name="hip_hopSongFalz">Soldier</string>
+
+    <!-- Hip Hop  song4-->
+    <string name="hip_hopArtistChidima">Chidima</string>
+    <string name="hip_hopSongChidima">Yanga</string>
+
+    <!-- Hip Hop  song5-->
+    <string name="hip_hopArtistJosey">Josey</string>
+    <string name="hip_hopSongJosey">Diplome</string>
+
+    <!-- Hip Hop  song6-->
+    <string name="hip_hopArtistTzy">Tzy Panchaz </string>
+    <string name="hip_hopSongTzy">Panchak</string>
+
+    <!-- Hip Hop  song7-->
+    <string name="hip_hopArtistVictor">Victor AD.</string>
+    <string name="hip_hopSongVictor">Wetin We Gain</string>
+
+    <!-- Hip Hop  song8-->
+    <string name="hip_hopArtistKodak">Kodak Black</string>
+    <string name="hip_hopSongKodak">Tunnel Vision</string>
+
+    <!-- Hip Hop  song9-->
+    <string name="hip_hopArtistTyler">Tyler</string>
+    <string name="hip_hopSongTyler">The Creator</string>
+
+    <!-- Hip Hop song10-->
+    <string name="hip_hopArtistJohann">Johann Sebastian Bach</string>
+    <string name="hip_hopSongJohann">Sista</string>
+
+    <!-- Pop Genre Name-->
+    <string name="genre_pop">Pop</string>
+
+    <!-- Pop song1-->
+    <string name="popArtistCamilla">Camilla Cabello</string>
+    <string name="popSongCamilla">Havana</string>
+
+    <!-- Pop song2-->
+    <string name="popArtistAriana">Ariana Grande</string>
+    <string name="popSongAriana">"The Light Is Coming</string>
+
+    <!-- Pop song3-->
+    <string name="popArtistShawnMendes">Shawn Mendes</string>
+    <string name="popSongShawnMendes">Youth</string>
+
+    <!-- Pop song4-->
+    <string name="popArtistCharliePuth">Charlie Puth</string>
+    <string name="popSongCharliePuth">Attention</string>
+
+    <!-- Pop song5-->
+    <string name="popArtistJanelleMonáe">Janelle Monáe</string>
+    <string name="popSongJanelleMonáe">Make Me Feel</string>
+
+    <!-- Pop song6-->
+    <string name="popArtistAnneMarie">Anne-Marie</string>
+    <string name="popSongAnneMarie">Alarm</string>
+
+    <!-- Pop song7-->
+    <string name="popArtistJustinTimberlake">Justin Timberlake</string>
+    <string name="popSongJustinTimberlake">Filthy</string>
+
+    <!-- Pop song8-->
+    <string name="popArtistKimbra">Kimbra</string>
+    <string name="popSongKimbra">Human</string>
+
+    <!-- Pop song9-->
+    <string name="popArtistChristinaAguilera">Christina Aguilera</string>
+    <string name="popSongChristinaAguilera">Twice</string>
+
+    <!-- Pop song10-->
+    <string name="popArtistTinashe">Tinashe</string>
+    <string name="popSongTinashe">No Drama</string>
+
+    <!-- Classical Genre Name-->
+    <string name="genre_classical">Classical</string>
+
+    <!-- Classical song1-->
+    <string name="classicArtistAntonio">Antonio Vivaldi</string>
+    <string name="classicSongAntonio">The Four Seasons</string>
+
+    <!-- Classical song2-->
+    <string name="classicArtistGustav">Gustav Holst</string>
+    <string name="classicSongGustav">The Planets</string>
+
+    <!-- Classical song3-->
+    <string name="classicArtistErik">Erik Satie</string>
+    <string name="classicSongErik">Gymnopédie</string>
+
+    <!-- Classical song4-->
+    <string name="classicArtistCharles">Charles Gounod</string>
+    <string name="classicSongCharles">Ave Maria</string>
+
+    <!-- Classical song5-->
+    <string name="classicArtistEdward">Edward Elgar</string>
+    <string name="classicSongEdward">Pomp and Circumstance</string>
+
+    <!-- Classical song6-->
+    <string name="classicArtistJules">Jules Massenet </string>
+    <string name="classicSongJules">Meditation</string>
+
+    <!-- Classical song7-->
+    <string name="classicArtistLudwig">Ludwig van Beethoven</string>
+    <string name="classicSongLudwig">Bagatelle In A Minor</string>
+
+    <!-- Classical song8-->
+    <string name="classicArtistWolfang"> Wolfgang Amadeus Mozart</string>
+    <string name="classicSongWolfang">Piano Concerto</string>
+
+    <!-- Classical song9-->
+    <string name="classicArtistClaude">Claude Debussy</string>
+    <string name="classicSongClaude">Suite Bergamasque</string>
+
+    <!-- Classical song10-->
+    <string name="classicArtistJohann">Johann Sebastian Bach</string>
+    <string name="classicSongJohann">Hungarian Dance</string>
+
+</resources>

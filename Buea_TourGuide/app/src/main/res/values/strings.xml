@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Buea Tour Guide</string>
+
+    <!-- Categories -->
+    <string name="category_restaurant">Restaus</string>
+    <string name="category_touristic_site">Tour Sites</string>
+    <string name="category_event">Events</string>
+    <string name="category_institution">Schools</string>
+
+    <!-- Touristic Sites -->
+    <string name="mt_cameroon">Mount Cameroon</string>
+    <string name="parliamentarian_lodge">Parliamentarian_Lodge</string>
+    <string name="reunification_monument">Reunification Monument</string>
+    <string name="tole_tea">Tole Tea</string>
+    <string name="sasse_shrine">Our Lady of Grace Shrine</string>
+
+    <!-- Restaurants -->
+    <string name="iya">IYA</string>
+    <string name="twist">Twist</string>
+    <string name="dolly_fast_food">Dolly Fast Food</string>
+    <string name="spark_land">Spark Land</string>
+    <string name="oxford_guest_house">Oxford Guest House</string>
+
+    <!-- Events -->
+    <string name="griot_nights">Griot Nights</string>
+    <string name="google_io">Google I/O</string>
+    <string name="dev_fest">DevFest</string>
+    <string name="iwd_buea">International Women"s Day - Tech Style</string>
+    <string name="beta_nights">Beta Nights</string>
+
+    <!-- Institutions-->
+    <string name="university_of_buea">University of Buea</string>
+    <string name="cuib">Catholic University Institute</string>
+    <string name="landmark">Landmark</string>
+    <string name="biaka">Biaka University Institute</string>
+    <string name="oxford">Oxford Buea</string>
+
+    <!--Target group-->
+    <string name="general_public">General Public</string>
+    <string name="techies">Techies</string>
+    <string name="females">Females</string>
+    <string name="family">Families</string>
+    <string name="tourists">Tourists</string>
+    <string name="gov_officials">Government Officials</string>
+
+    <!--Size-->
+    <string name="high">Highly Populated</string>
+    <string name="low">Low Population</string>
+    <string name="medium">Medium Population</string>
+
+    <!--Hours-->
+    <string name="weekdays"> Weekdays     |    8am to 5pm</string>
+    <string name="weekends">Weekends      |  8am to 9pm</string>
+    <string name="half_day">Mondays to Sundays     |    8am to 12pm</string>
+
+    <!--Ratings-->
+    <string name="five">5 stars</string>
+    <string name="four">4 stars</string>
+    <string name="three">3 stars</string>
+
+    <!--Frequency-->
+    <string name="monthly">Monthly</string>
+    <string name="yearly">Yearly</string>
+    <string name="spontaneous">Spontaneous</string>
+
+    <!--Pricing-->
+    <string name="free">Free pass</string>
+    <string name="paid">Paid</string>
+    <string name="man_know_man">Man Know Man</string>
+</resources>

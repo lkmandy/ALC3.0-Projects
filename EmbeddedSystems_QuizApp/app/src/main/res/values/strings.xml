@@ -1,0 +1,120 @@
+<resources>
+
+    <string name="app_name">Embedded Systems Quiz App</string>
+
+    <!--Login page strings-->
+    <string name="who_you_are_text_view">Tell Us Who You Are!</string>
+    <string name="name_text_view">Name</string>
+    <string name="name_edit_text_view">Enter your name here</string>
+    <string name="email_text_view">Email</string>
+    <string name="email_edit_text_view">Enter your email address here</string>
+    <string name="login_button">Login</string>
+    <string name="login_method">Login</string>
+
+    <!--Landing page strings-->
+    <string name="hello_text_view">Hello!</string>
+    <string name="ticket_text_view">Guarantee your A grade in Embedded Systems with us</string>
+    <string name="start_quiz_button">Start Quiz</string>
+
+    <!--Questions page strings-->
+
+    <!--Section 1: Using radio buttons-->
+    <string name="section_1_title">Section One</string>
+    <string name="instruction_view1">I. Select the radio button corresponding to the right answer
+        (Only one value can be selected)</string>
+
+    <!--Question one-->
+    <string name="question1_section1">1. Which one of the following offers CPUs as integrated memory or peripheral interfaces?</string>
+    <string name="answer1_question1_section1">Micro-controller</string> <!--Answer: true-->
+    <string name="answer2_question1_section1"> Microprocessor</string><!--Answer:false-->
+    <string name="answer3_question1_section1"> Memory system</string><!--Answer:false-->
+
+    <!--Question two-->
+    <string name="question2_section1">2. What is CISC?</string>
+    <string name="answer1_question2_section1">Computing instruction set complex</string><!--Answer:false-->
+    <string name="answer2_question2_section1">Complex instruction set computing</string><!--Answer:true-->
+    <string name="answer3_question2_section1">Complementary instruction set computing</string><!--Answer:false-->
+
+    <!--Question three-->
+    <string name="question3_section1">3. How is the protection and security for an embedded system made?</string>
+    <string name="answer1_question3_section1">IPR</string><!--Answer:true-->
+    <string name="answer2_question3_section1">OTP</string><!--Answer:false-->
+    <string name="answer3_question3_section1">Memory disk security</string><!--Answer:false-->
+
+    <!--Submit section1 button-->
+    <string name="submit_button1">Submit</string>
+    <string name="toastMessage_submit_button1">Section1 Score: </string>
+    <string name="numberOfQuestions">/3</string>
+
+    <!--Section 2: using check boxes-->
+    <string name="section_2_title">Section Two</string>
+    <string name="instruction_view2">II. Select any number of values corresponding to the right answer
+        (Multiple values can be selected)</string>
+
+    <!--Question one-->
+    <string name="question1_section2">1. Name four categories of embedded systems</string>
+    <string name="answer1_question1_section2">Stand-alone</string> <!--Answer:true-->
+    <string name="answer2_question1_section2">Real-time</string><!--Answer:true-->
+    <string name="answer3_question1_section2">Networked</string><!--Answer:true-->
+
+    <!--Question two-->
+    <string name="question2_section2">2. What are the advantages of Embedded Systems</string>
+    <string name="answer1_question2_section2">No need for hardware updates</string><!--Answer:true-->
+    <string name="answer2_question2_section2">Cost-effectiveness</string><!--Answer:true-->
+    <string name="answer3_question2_section2">None of the above</string><!--Answer:false-->
+
+    <!--Question three-->
+    <string name="question3_section2">3. List vehicle embedded systems examples</string>
+    <string name="answer1_question3_section2">Anti-lock braking system</string><!--Answer:true-->
+    <string name="answer2_question3_section2">Automated teller machine</string><!--Answer:false-->
+    <string name="answer3_question3_section2">Airbag control system</string><!--Answer:true-->
+
+    <!--Submit section2 button-->
+    <string name="submit_button2">Submit</string>
+
+    <!--Section 3: using text fields and image views-->
+    <string name="section_3_title">Section Three</string>
+    <string name="instruction_view3">III. Use your intuition to answer the questions below: <!--(answers can be in upper or lower case)--></string>
+
+    <!--Question one : using an edit image view-->
+    <string name="question1_section3">1. What is the full meaning of DfT?</string>
+    <string name="input_field_question1_section3">Enter your answer</string><!--Answer: design for testability-->
+
+    <!--Question two-->
+    <string name="question2_section3">2.Identify the embedded system below</string>
+    <string name="input_field_question2_section3">Enter your answer</string><!--Answer: A robot-->
+
+    <!--Question three-->
+    <string name="question3_section3">3. What is the synonym of the boundary scan</string>
+    <string name="input_field_question3_section3">Enter your answer</string><!--Answer: JTAG-->
+
+    <!--Question four-->
+    <string name="question4_section3">4.Identify the component below </string>
+    <string name="input_field_question4_section3">Enter your answer</string><!-- Answer: processor-->
+
+    <!--Submit section1 button-->
+    <string name="submit_button3">Submit</string>
+
+    <!--Get Grade button-->
+    <string name="result_summary_button">Get Result</string>
+    <string name="start_afresh_button">Start Afresh</string>
+
+    <string name="total_points">/10 points</string>
+    <string name="total_section_points">/4</string>
+    <string name="quiz_results">Quiz result:</string>
+    <string name="section4_score">Section4 Score: </string>
+
+    <string name="lower_case_jtag">jtag</string>
+    <string name="upper_case_jtag">JTAG</string>
+    <string name="lower_case_micro_processor">micro-processor</string>
+    <string name="upper_case_micro_processor">Micro-processor</string>
+    <string name="lower_case_robot">robot</string>
+    <string name="upper_case_robot">Robot</string>
+    <string name="lower_case_design_for_testability">design for testability</string>
+    <string name="upper_case_design_for_testability">Design for testability</string>
+    <string name="number_of_questions">/3</string>
+    <string name="toast_submit_button1">Section1 Score:</string>
+    <string name="toast_submit_button2">Section2 Score:</string>
+    <string name="toast_submit_button3">Section3 Score:</string>
+
+</resources>

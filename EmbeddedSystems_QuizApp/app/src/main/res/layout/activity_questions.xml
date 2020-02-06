@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".QuestionsActivity">
+
+        <!--Horizontal line at the beginning of the application -->
+        <View
+            style="@style/LineBelowSectionViews"
+            android:layout_marginTop="24dp" />
+
+        <!--Section One view -->
+        <TextView
+            style="@style/SectionViews"
+            android:text="@string/section_1_title" />
+
+        <View style="@style/LineBelowSectionViews" />
+
+        <!--Instruction one  view -->
+        <TextView
+            style="@style/InstructionViews"
+            android:text="@string/instruction_view1" />
+
+        <!--Question one- section 1 view -->
+        <TextView
+            android:id="@+id/question1Section1"
+            style="@style/Question1Views"
+            android:text="@string/question1_section1" />
+
+        <!--Radio group for question one - section one  -->
+        <RadioGroup
+            android:id="@+id/radioOne"
+            style="@style/ParentGroupViews">
+
+            <!--Answer one - question one - section 1 view -->
+            <RadioButton
+                android:id="@+id/radio_button1_answer1_question1_section1"
+                style="@style/RadioButtonViews"
+                android:text="@string/answer1_question1_section1" />
+
+            <!--Answer two - question one - section 1 view -->
+            <RadioButton
+                android:id="@+id/radio_button2_answer2_question1_section1"
+                style="@style/RadioButtonViews"
+                android:text="@string/answer2_question1_section1" />
+
+            <!--Answer three - question one - section 1 view -->
+            <RadioButton
+                android:id="@+id/radio_button3_answer3_question1_section1"
+                style="@style/RadioButtonViews"
+                android:text="@string/answer3_question1_section1" />
+        </RadioGroup>
+
+        <!--Question two - section 1 view -->
+        <TextView
+            android:id="@+id/question2_section1"
+            style="@style/Question1Views"
+            android:text="@string/question2_section1" />
+
+        <!--Radio group for question two - section one  -->
+        <RadioGroup
+            android:id="@+id/radio_two"
+            style="@style/ParentGroupViews">
+
+            <!--Answer one - question two - section 1 view -->
+            <RadioButton
+                android:id="@+id/radio_button1_answer1_question2_section1"
+                style="@style/RadioButtonViews"
+                android:text="@string/answer1_question2_section1" />
+
+            <!--Answer two - question two- section 1 view -->
+            <RadioButton
+                android:id="@+id/radio_button2_answer2_question2_section1"
+                style="@style/RadioButtonViews"
+                android:text="@string/answer2_question2_section1" />
+
+            <!--Answer three - question two - section 1 view -->
+            <RadioButton
+                android:id="@+id/radio_button3_answer3_question2_section1"
+                style="@style/RadioButtonViews"
+                android:text="@string/answer3_question2_section1" />
+
+        </RadioGroup>
+
+        <!--Question three - section 1 view -->
+        <TextView
+            android:id="@+id/question3_section1"
+            style="@style/Question1Views"
+            android:text="@string/question3_section1" />
+
+        <!--Radio group for question three - section one  -->
+        <RadioGroup
+            android:id="@+id/radio_three"
+            style="@style/ParentGroupViews">
+
+            <!--Answer one - question three - section 1 view -->
+            <RadioButton
+                android:id="@+id/radio_button1_answer1_question3_section1"
+                style="@style/RadioButtonViews"
+                android:text="@string/answer1_question3_section1" />
+
+            <!--Answer two - question three- section 1 view -->
+            <RadioButton
+                android:id="@+id/radio_button2_answer2_question3_section1"
+                style="@style/RadioButtonViews"
+                android:text="@string/answer2_question3_section1" />
+
+            <!--Answer three - question three - section 1 view -->
+            <RadioButton
+                android:id="@+id/radio_button3_answer3_question3_section1"
+                style="@style/RadioButtonViews"
+                android:text="@string/answer3_question3_section1" />
+        </RadioGroup>
+
+        <!--submit button section3-->
+        <Button
+            android:id="@+id/section1_submit"
+            style="@style/QuizAppButtons"
+            android:onClick="submitAnswersSection1"
+            android:text="@string/submit_button1" />
+
+        <!--Horizontal line separating each section -->
+        <View style="@style/LineBelowSectionViews" />
+
+        <!--Section Two view -->
+        <TextView
+            style="@style/SectionViews"
+            android:text="@string/section_2_title" />
+
+        <View style="@style/LineBelowSectionViews" />
+
+        <!--Instruction one  view -->
+        <TextView
+            style="@style/InstructionViews"
+            android:text="@string/instruction_view2" />
+
+        <!--Question one- section 2 view -->
+        <TextView
+            android:id="@+id/question1_section2"
+            style="@style/Question1Views"
+            android:text="@string/question1_section2" />
+
+        <!--Answer one - question one - section 2 view -->
+        <CheckBox
+            android:id="@+id/checkbox1_answer1_question1_section2"
+            style="@style/RadioButtonViews"
+            android:text="@string/answer1_question1_section2" />
+
+        <!--Answer two - question one - section 2 view -->
+        <CheckBox
+            android:id="@+id/checkbox2_answer2_question1_section2"
+            style="@style/RadioButtonViews"
+            android:text="@string/answer2_question1_section2" />
+
+        <!--Answer three - question one - section 2 view -->
+        <CheckBox
+            android:id="@+id/checkbox3_answer3_question1_section2"
+            style="@style/RadioButtonViews"
+            android:text="@string/answer3_question1_section2" />
+
+        <!--Question two- section 2 view -->
+        <TextView
+            android:id="@+id/question2_section2"
+            style="@style/Question1Views"
+            android:text="@string/question2_section2" />
+
+        <!--Answer one - question two - section 2 view -->
+        <CheckBox
+            android:id="@+id/checkbox1_answer1_question2_section2"
+            style="@style/RadioButtonViews"
+            android:text="@string/answer1_question2_section2" />
+
+        <!--Answer two - question one - section 2 view -->
+        <CheckBox
+            android:id="@+id/checkbox2_answer2_question2_section2"
+            style="@style/RadioButtonViews"
+            android:text="@string/answer2_question2_section2" />
+
+        <!--Answer three - question one - section 2 view -->
+        <CheckBox
+            android:id="@+id/checkbox3_answer3_question2_section2"
+            style="@style/RadioButtonViews"
+            android:text="@string/answer3_question2_section2" />
+
+        <!--Question three - section 2 view -->
+        <TextView
+            android:id="@+id/question3_section2"
+            style="@style/Question1Views"
+            android:text="@string/question3_section2" />
+
+        <!--Answer one - question three - section 2 view -->
+        <CheckBox
+            android:id="@+id/checkbox1_answer1_question3_section2"
+            style="@style/RadioButtonViews"
+            android:text="@string/answer1_question3_section2" />
+
+        <!--Answer two - question three - section 2 view -->
+        <CheckBox
+            android:id="@+id/checkbox2_answer2_question3_section2"
+            style="@style/RadioButtonViews"
+            android:text="@string/answer2_question3_section2" />
+
+        <!--Answer three - question three - section 2 view -->
+        <CheckBox
+            android:id="@+id/checkbox3_answer3_question3_section2"
+            style="@style/RadioButtonViews"
+            android:text="@string/answer3_question3_section2" />
+
+        <!--submit button section2-->
+        <Button
+            android:id="@+id/section2_submit"
+            style="@style/QuizAppButtons"
+            android:onClick="submitAnswersSection2"
+            android:text="@string/submit_button2" />
+
+        <!--Horizontal line separating each section -->
+        <View style="@style/LineBelowSectionViews" />
+
+        <!--Section Three view -->
+        <TextView
+            style="@style/SectionViews"
+            android:text="@string/section_3_title" />
+
+        <View style="@style/LineBelowSectionViews" />
+
+        <!--Instruction three  view -->
+        <TextView
+            style="@style/InstructionViews"
+            android:text="@string/instruction_view3" />
+
+        <!--Question one- section 3 view -->
+        <TextView
+            style="@style/Question1Views"
+            android:text="@string/question1_section3" />
+
+        <!--Question one- input field -section 3 view -->
+        <EditText
+            android:id="@+id/editText1_question1_section3"
+            style="@style/QuestionPageEditTextViews"
+            android:hint="@string/input_field_question1_section3" />
+
+        <!--Question two - section 3 view -->
+        <TextView
+            android:id="@+id/question2_section3"
+            style="@style/Question1Views"
+            android:text="@string/question2_section3" />
+
+        <!--Question two - robot image - section 3 view -->
+        <ImageView
+            style="@style/ImageViews"
+            android:src="@drawable/robot_man" />
+
+        <!--Question two - input field - section 3 view -->
+        <EditText
+            android:id="@+id/editText2_question2_section3"
+            style="@style/QuestionPageEditTextViews"
+            android:hint="@string/input_field_question2_section3" />
+
+        <!--Question three- section 3 view -->
+        <TextView
+            android:id="@+id/question3_section3"
+            style="@style/Question1Views"
+            android:text="@string/question3_section3" />
+
+        <!--Question three- input field -section 3 view -->
+        <EditText
+            android:id="@+id/editText3_question3_section3"
+            style="@style/QuestionPageEditTextViews"
+            android:hint="@string/input_field_question3_section3" />
+
+        <!--Question four - section 3 view -->
+        <TextView
+            android:id="@+id/question4_section3"
+            style="@style/Question1Views"
+            android:text="@string/question4_section3" />
+
+        <!--Question four - processor image - section 3 view -->
+        <ImageView
+            style="@style/ImageViews"
+            android:src="@drawable/processor_icon" />
+
+        <!--Question four - input field - section 3 view -->
+        <EditText
+            android:id="@+id/editText4_question4_section3"
+            style="@style/QuestionPageEditTextViews"
+            android:hint="@string/input_field_question4_section3" />
+
+        <!--submit button section3-->
+        <Button
+            android:id="@+id/section3_submit"
+            style="@style/LastThreeAppButtons"
+            android:onClick="submitAnswersSection3"
+            android:text="@string/submit_button3" />
+
+        <View style="@style/LineBelowSectionViews" />
+
+        <!--Get Result button-->
+        <Button
+            style="@style/LastThreeAppButtons"
+            android:onClick="getResultSummary"
+            android:text="@string/result_summary_button" />
+
+        <View style="@style/LineBelowSectionViews" />
+
+        <!--Start Afresh button-->
+        <Button
+            style="@style/LastThreeAppButtons"
+            android:onClick="startAfresh"
+            android:text="@string/start_afresh_button" />
+
+        <!--Horizontal line at the end of the application -->
+        <View
+            style="@style/LineBelowSectionViews"
+            android:layout_marginBottom="36dp" />
+
+    </LinearLayout>
+
+</ScrollView>

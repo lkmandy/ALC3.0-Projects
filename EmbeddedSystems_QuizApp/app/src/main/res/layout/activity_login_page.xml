@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".LoginPageActivity">
+
+        <!--Welcome image-->
+        <ImageView
+            style="@style/ImageViews"
+            android:src="@drawable/welcome1" />
+
+        <!--Let us know who you are message-->
+        <TextView
+            style="@style/TellUsWhoYouAreTextView"
+            android:layout_gravity="center"
+            android:text="@string/who_you_are_text_view" />
+
+        <!--Name view  -->
+        <TextView
+            style="@style/LoginPageTitleTextViews"
+            android:text="@string/name_text_view" />
+
+        <EditText
+            android:id="@+id/nameInputFieldView"
+            style="@style/LandingPageTextViews"
+            android:inputType="textPersonName"
+            android:hint="@string/name_edit_text_view" />
+
+        <!--Email view -->
+        <TextView
+            style="@style/LoginPageTitleTextViews"
+            android:text="@string/email_text_view" />
+
+        <EditText
+            style="@style/LandingPageTextViews"
+            android:inputType="textEmailAddress"
+            android:hint="@string/email_edit_text_view" />
+
+        <!--Login button-->
+        <Button
+            style="@style/QuizAppButtons"
+            android:onClick="login"
+            android:text="@string/login_button" />
+
+    </LinearLayout>
+
+</ScrollView>

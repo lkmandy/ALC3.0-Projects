@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        style="@style/AmericanFootballCommonParentLayoutPattern"
+        android:background="@drawable/white_background"
+        android:theme="@style/AppTheme"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:id="@+id/mainContainer"
+            style="@style/AmericanFootballCommonParentLayoutPattern"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/teamAContainer"
+                style="@style/AmericanFootballLinearLayoutColumns">
+
+                <TextView
+                    style="@style/AmericanFootballTeamTitle"
+                    android:text="@string/teamA" />
+
+                <ImageView
+                    style="@style/AmericanFootballImageViews"
+                    android:contentDescription="@string/teamNameA"
+                    android:src="@drawable/atlanta_falcons" />
+
+                <TextView
+                    android:id="@+id/teamScoreA"
+                    style="@style/AmericanFootballScoreViews"
+                    android:text="@string/scoreA" />
+
+                <Button
+                    style="@style/AmericanFootballButtons"
+                    android:layout_marginTop="8dp"
+                    android:onClick="addPlusSixA"
+                    android:text="@string/sixPointsA" />
+
+                <Button
+                    style="@style/AmericanFootballButtons"
+                    android:onClick="addPlusOneA"
+                    android:text="@string/onePointA" />
+
+                <Button
+                    style="@style/AmericanFootballButtons"
+                    android:onClick="addPlusThreeA"
+                    android:text="@string/threePointsA" />
+
+                <Button
+                    style="@style/AmericanFootballButtons"
+                    android:onClick="addPlusTwoA"
+                    android:text="@string/twoPointsA" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/teamBContainer"
+                style="@style/AmericanFootballLinearLayoutColumns">
+
+                <TextView
+                    style="@style/AmericanFootballTeamTitle"
+                    android:text="@string/teamB" />
+
+                <ImageView
+                    style="@style/AmericanFootballImageViews"
+                    android:contentDescription="@string/teamNameB"
+                    android:src="@drawable/carolina_panthers" />
+
+                <TextView
+                    android:id="@+id/teamScoreB"
+                    style="@style/AmericanFootballScoreViews"
+                    android:text="@string/scoreB" />
+
+                <Button
+                    style="@style/AmericanFootballButtons"
+                    android:layout_marginTop="8dp"
+                    android:onClick="addPlusSixB"
+                    android:text="@string/sixPointsB" />
+
+                <Button
+                    style="@style/AmericanFootballButtons"
+                    android:onClick="addPlusOneB"
+                    android:text="@string/onePointB" />
+
+                <Button
+                    style="@style/AmericanFootballButtons"
+                    android:onClick="addPlusThreeB"
+                    android:text="@string/threePointsB" />
+
+                <Button
+                    style="@style/AmericanFootballButtons"
+                    android:onClick="addPlusTwoB"
+                    android:text="@string/twoPointsB" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/getResultContainer"
+            style="@style/AmericanFootballCommonParentLayoutPattern"
+            android:layout_below="@+id/mainContainer"
+            android:orientation="horizontal">
+
+            <Button
+                style="@style/AmericanFootballWinButton"
+                android:onClick="winMessage"
+                android:text="@string/winButton" />
+
+            <TextView
+                android:id="@+id/winMessage"
+                style="@style/AmericanFootballWinMessage"
+                android:text="@string/winMessage" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/reset"
+            style="@style/AmericanFootballReset"
+            android:layout_below="@+id/getResultContainer"
+            android:onClick="reset"
+            android:text="@string/resetButton" />
+
+    </RelativeLayout>
+
+</ScrollView>

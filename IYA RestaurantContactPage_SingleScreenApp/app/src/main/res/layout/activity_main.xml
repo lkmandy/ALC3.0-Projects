@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+
+        <!-- Business picture section -->
+        <ImageView
+            android:id="@+id/main_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="16dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/iya_main_pic" />
+
+        <View
+            android:id="@+id/rule_below_main_pic"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_alignEnd="@+id/main_pic"
+            android:layout_alignLeft="@+id/main_pic"
+            android:layout_alignRight="@+id/main_pic"
+            android:layout_alignStart="@+id/main_pic"
+            android:layout_below="@+id/main_pic"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/horizontal_rule" />
+
+
+        <!-- Business name section -->
+        <ImageView
+            android:id="@+id/iya_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/rule_below_main_pic"
+            android:layout_alignStart="@+id/rule_below_main_pic"
+            android:layout_below="@+id/rule_below_main_pic"
+            android:layout_marginBottom="36dp"
+            android:src="@drawable/iya_logo" />
+
+
+        <!-- About Us  section -->
+        <View
+            android:id="@+id/rule_above_about_us"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_alignEnd="@id/about_iya_title"
+            android:layout_alignLeft="@id/about_iya_title"
+            android:layout_alignRight="@id/about_iya_title"
+            android:layout_alignStart="@id/about_iya_title"
+            android:layout_below="@+id/iya_logo"
+            android:layout_marginBottom="2dp"
+            android:background="@color/horizontal_rule" />
+
+
+        <TextView
+            android:id="@+id/about_iya_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/iya_logo"
+            android:layout_alignStart="@+id/iya_logo"
+            android:layout_below="@+id/iya_logo"
+            android:layout_marginTop="4dp"
+            android:padding="2dp"
+            android:text="@string/about_iya_title"
+            android:textColor="@color/horizontal_rule"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/rule_below_about_us"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_alignEnd="@id/about_iya_title"
+            android:layout_alignLeft="@id/about_iya_title"
+            android:layout_alignRight="@id/about_iya_title"
+            android:layout_alignStart="@id/about_iya_title"
+            android:layout_below="@+id/about_iya_title"
+            android:layout_marginTop="2dp"
+            android:background="@color/horizontal_rule" />
+
+
+        <TextView
+            android:id="@+id/about_iya_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/rule_below_main_pic"
+            android:layout_alignLeft="@+id/iya_logo"
+            android:layout_alignRight="@+id/rule_below_main_pic"
+            android:layout_alignStart="@+id/iya_logo"
+            android:layout_below="@+id/about_iya_title"
+            android:layout_marginBottom="36dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/about_iya_description"
+            android:textColor="@color/horizontal_rule" />
+
+
+        <!-- Contact Informatiion section -->
+        <View
+            android:id="@+id/rule_above_contact_us"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_alignEnd="@id/contact_us_title"
+            android:layout_alignLeft="@id/contact_us_title"
+            android:layout_alignRight="@id/contact_us_title"
+            android:layout_alignStart="@id/contact_us_title"
+            android:layout_below="@+id/about_iya_description"
+            android:layout_marginBottom="2dp"
+            android:background="@color/horizontal_rule" />
+
+
+        <TextView
+            android:id="@+id/contact_us_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/iya_logo"
+            android:layout_alignStart="@+id/iya_logo"
+            android:layout_below="@+id/rule_above_contact_us"
+            android:layout_marginTop="4dp"
+            android:padding="2dp"
+            android:text="@string/contact_us_title"
+            android:textColor="@color/horizontal_rule"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/rule_below_contact_us"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_alignEnd="@id/contact_us_title"
+            android:layout_alignLeft="@id/contact_us_title"
+            android:layout_alignRight="@id/contact_us_title"
+            android:layout_alignStart="@id/contact_us_title"
+            android:layout_below="@+id/contact_us_title"
+            android:layout_marginTop="2dp"
+            android:background="@color/horizontal_rule" />
+
+
+        <!--Call section -->
+        <ImageView
+            android:id="@+id/call_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/rule_below_contact_us"
+            android:layout_alignStart="@id/rule_below_contact_us"
+            android:layout_below="@+id/rule_below_contact_us"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_call_black" />
+
+        <TextView
+            android:id="@+id/phone_number_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rule_below_contact_us"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="14dp"
+            android:layout_toEndOf="@+id/call_icon"
+            android:layout_toRightOf="@+id/call_icon"
+            android:text="@string/phone"
+            android:textColor="@color/horizontal_rule" />
+
+        <!--Email section -->
+        <ImageView
+            android:id="@+id/email_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/rule_below_contact_us"
+            android:layout_alignStart="@id/rule_below_contact_us"
+            android:layout_below="@+id/call_icon"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/ic_email_black" />
+
+        <TextView
+            android:id="@+id/email_address_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/phone_number_name"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_toEndOf="@+id/email_icon"
+            android:layout_toRightOf="@+id/email_icon"
+            android:text="@string/email"
+            android:textColor="@color/horizontal_rule" />
+
+
+        <!--Location section -->
+        <ImageView
+            android:id="@+id/location_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/rule_below_contact_us"
+            android:layout_alignStart="@id/rule_below_contact_us"
+            android:layout_below="@+id/email_icon"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/ic_location_black" />
+
+        <TextView
+            android:id="@+id/location_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/email_address_name"
+            android:layout_marginBottom="36dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="24dp"
+            android:layout_toEndOf="@+id/location_icon"
+            android:layout_toRightOf="@+id/location_icon"
+            android:text="@string/location"
+            android:textColor="@color/horizontal_rule" />
+
+        <View
+            android:id="@+id/rule_below_location_name"
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:layout_alignEnd="@+id/main_pic"
+            android:layout_alignLeft="@+id/main_pic"
+            android:layout_alignRight="@+id/main_pic"
+            android:layout_alignStart="@+id/main_pic"
+            android:layout_below="@+id/location_name"
+            android:layout_marginBottom="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginStart="24dp"
+            android:background="@color/horizontal_rule" />
+
+
+    </RelativeLayout>
+</ScrollView>

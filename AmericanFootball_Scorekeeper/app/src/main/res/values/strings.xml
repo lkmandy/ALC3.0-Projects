@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">American Football Counter</string>
+
+    <!--Team A-->
+    <string name="teamNameA">Atlanta Falcons</string>
+    <string name="teamA">Team A</string>
+    <string name="scoreA">0</string>
+    <string name="sixPointsA">Touch down</string>
+    <string name="onePointA">Extra point</string>
+    <string name="threePointsA">Field goal</string>
+    <string name="twoPointsA">Safety</string>
+
+    <!--Team B-->
+    <string name="teamNameB">Carolina Panthers</string>
+    <string name="teamB">Team B</string>
+    <string name="scoreB">0</string>
+    <string name="sixPointsB">Touch down</string>
+    <string name="onePointB">Extra point</string>
+    <string name="threePointsB">Field goal</string>
+    <string name="twoPointsB">Safety</string>
+
+    <!--Result and Reset section-->
+    <string name="winMessage">" "</string>
+    <string name="winButton">Result</string>
+    <string name="resetButton">Reset</string>
+</resources>

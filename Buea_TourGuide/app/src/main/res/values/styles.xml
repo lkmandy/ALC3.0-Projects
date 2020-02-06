@@ -1,0 +1,89 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Main Activity Style. -->
+    <style name="main_activity_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <!-- Parent Linear layout Events & Institution Category. -->
+    <style name="parent_linearLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/large_padding</item>
+        <item name="android:layout_marginBottom">@dimen/large_padding</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <!-- Inner  parent Linear layout Events & Institution Category . -->
+    <style name="inner_parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/medium_padding</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Location icon. -->
+    <style name="location_icon">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:layout_margin">@dimen/large_padding</item>
+        <item name="android:background">@color/dark_pink</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- card view images -->
+    <style name="other_images">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/card_view_image_height</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Name text view -->
+    <style name="name_text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/small_padding</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Level two view -->
+    <style name="level_two_text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/small_padding</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <!-- Level three view -->
+    <style name="level_three_text_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/small_padding</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:layout_marginBottom">@dimen/large_padding</item>
+    </style>
+
+    <!-- Card view -->
+    <style name="card_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">@dimen/large_padding</item>
+        <item name="android:background">@color/dark_pink</item>
+        <item name="android:radius">@dimen/extra_small_padding</item>
+    </style>
+
+</resources>

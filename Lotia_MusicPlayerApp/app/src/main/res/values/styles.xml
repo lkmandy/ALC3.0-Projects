@@ -1,0 +1,74 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/Lime700</item>
+        <item name="colorPrimaryDark">@color/Lime900</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Style for a genre of music-->
+    <style name="genreStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <!-- Style for the layout list of music-->
+    <style name="musicListStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingTop">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <!-- Style for the main screen images-->
+    <style name="musicCategoryStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_margin">@dimen/activity_vertical_margin</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <!-- Style for the main screen Outer group view-->
+    <style name="musicCategoryGroupViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_margin">@dimen/activity_vertical_margin</item>
+        <item name="android:background">@color/Lime500</item>
+    </style>
+
+    <!-- Style for the now playing images-->
+    <style name="nowPlayingImages">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_weight">0</item>
+    </style>
+
+    <!-- Style for the now playing music library image-->
+    <style name="nowPlayingMusicLibImage">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- Style for the now playing horizontal linear layout-->
+    <style name="nowPlayingHorizontalLinearLY">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/activity_horizontal_margin</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_below">@id/nowPlayingImage</item>
+        <item name="android:background">@color/Lime500</item>
+    </style>
+
+</resources>

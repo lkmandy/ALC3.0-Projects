@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">IYA Restaurant</string>
+    <string name="title">IYA Restaurant</string>
+    <string name="about_iya_title">About Us</string>
+    <string name="about_iya_description">An award-winning fine dining restaurant that pays
+        homage to Cameroon’s rich and diverse gastronomy and cultural heritage.</string>
+
+    <string name="contact_us_title">Contact Us</string>
+    <string name="phone">(+237)665 001 000</string>
+    <string name="email"> info@iyabuea.com</string>
+    <string name="location">IYA Avenue, Bongo Square, Buea, Southwest, Cameroon
+</string>
+
+    <string name="services_title">Our Services</string>
+    <string name="service1">Seasonal menus with a focus on local produce, high quality
+        ingredients and Cameroonian flavours.</string>
+
+    <string name="service2">Creative and cultural hub; showcasing and celebrating  art and music emerging from the region.</string>
+
+</resources>

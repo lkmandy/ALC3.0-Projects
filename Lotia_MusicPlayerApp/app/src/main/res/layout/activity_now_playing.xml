@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--music playing image-->
+        <ImageView
+            android:id="@+id/nowPlayingImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_horizontal_margin"
+            android:src="@drawable/now_playing_icon" />
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            style="@style/nowPlayingHorizontalLinearLY">
+
+            <!--music library iconn-->
+            <ImageView
+                android:id="@+id/musicCategory"
+                style="@style/nowPlayingMusicLibImage"
+                android:src="@drawable/music_category_icon" />
+
+            <!--previous icon-->
+            <ImageView
+                android:id="@+id/previousIcon"
+                style="@style/nowPlayingImages"
+                android:src="@drawable/skip_previous_icon" />
+
+            <!--play icon-->
+            <ImageView
+                android:id="@+id/playIcon"
+                style="@style/nowPlayingImages"
+                android:src="@drawable/play_icon" />
+
+            <!--next icon-->
+            <ImageView
+                android:id="@+id/nextIcon"
+                style="@style/nowPlayingImages"
+                android:src="@drawable/skip_next_icon" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
